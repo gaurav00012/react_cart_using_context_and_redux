@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
-import { CartContext } from '../contexts/CartContext';
 
 function CartPage() {
   const { cart, removeFromCart, clearCart } = useContext(CartContext);
-
+  
   return (
     <div className="container mt-4">
       <h2>Your Cart</h2>
